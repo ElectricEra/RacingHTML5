@@ -91,10 +91,10 @@ function carClass() {
 
 	this.draw = function () {
 		drawBitmapCenteredWithRotation(this.carPic,this.x,this.y,this.ang);
-		colorCircle(this.x,this.y,2,"yellow");
+		//colorCircle(this.x,this.y,2,"yellow");
 		var a = this.x-this.carPic.width/2;
 		var b = this.y+this.carPic.height/2;
-		colorRect(this.x-this.carPic.width/8,this.y-this.carPic.height/8,this.carPic.width/4, this.carPic.height/4,this.ang, "yellow");
+		//colorRect(this.x-this.carPic.width/8,this.y-this.carPic.height/8,this.carPic.width/4, this.carPic.height/4,this.ang, "yellow");
 		//console.log(a+" "+b+" "+ this.carPic.width+" "+ this.carPic.height+" "+ "yellow")
 		//colorRect(topLeftX,topLeftY, boxWidth,boxHeight, fillColor)
 	}
